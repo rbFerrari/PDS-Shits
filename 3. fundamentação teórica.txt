@@ -1,0 +1,16 @@
+Tópicos Importantes a serem discutidos:
+	> Sinais
+	> Sistemas lineares e transformada-Z
+	> Amostragem
+		- Teoremas de Amostragem
+		- Nyquist
+		- Shannon
+		- Decimação
+	> Transformada de Fourier
+		- Aplicação
+		- DFT
+		- FFT
+		- Como remover o sinal DC
+	> Janelamento
+		- Contexto e Aplicação
+		- Exemplos de Janelas

@@ -1,0 +1,32 @@
+	Experimento 1: Aquisição dos Sinais
+		Nessa primeira etapa, serão utilizados os seguintes materiaisÇ
+			> MacBook Pro (Retina, 13-inch (ou 15-inch), Late 2013); OS X Yosemite Version 10.10.3 (14D136); Processor: 2.6 GHz Intel Core i5
+			> MatLab R2014b(8.4.0.150421) 64-bit instalado no MacBook. 
+			> Funções DFT, FFT e decimate do MatLab. Os eixos serão colocados nos gráficos e o nível DC do sinal será removido.
+		
+		Os métodos utilizados são os seguintes:
+		1. Definir as especificações do sistema de áudio do computador. Identificar e descrever a taxa de amostragem, filtros de entrada analógicos etc..
+		2. Definir qual deveria ser a taxa de amostragem do sinal se fosse prevista apenas a utilização pela voz humana.
+		3. Definir quais deveriam ser as especificações do filtro anti-aliasing, nas condições descritas acima. Normalmente adota-se metade da frequência de amostragem.
+		4. Definir qual seria o máximo valor para a decimação após a amostragem do sinal de voz.
+		
+		
+	Experimento 2: Processamento dos Sinais
+		No segundo experimento, serão utilizados os mesmos materias utilizados no primeiro experimento.
+		
+		Os métodos utilizados e as perguntas respondidas nesse experimento são os seguintes:
+		1. Gravar um curto sinal de voz e armazenar no computador.
+		2. Definir o espectro de potência do sinal de voz. Fazer também a média dos espectros usando a janela de Bartlet e os sinais com 1024 amostras.
+		3. Fazer a redução da largura de banda do sinal gravado e determinar qual a largura de banda para que o sinal seja inteligível e se possa determinar o locutor.
+		4. Utilizando diferentes trechos de sinal, determinar o tempo de processamento para os algoritmos de DFT e FFT.
+	
+	
+	Experimento 3: O Modelo de Scrambler
+		No terceiro experimento, serão utilizados os mesmos materiais utilizados nos dois primeiros experimentos.
+		
+		Os métodos utilizados e as perguntas respondidas nesse experimento são os seguintes:
+		1. Fazer a aquisição de um sinal de áudio e determinar o seu espectro de potência. Substituir a fase por uma distribuição aleatória e fazer a transformada inversa. Verificar a similaridade do sinal atual com o sinal original e analisar qualitativamente o que ficou diferente.
+		2. Fazer uma filtragem no sinal de áudio gravado para que sua resposta seja de 300 a 3400 Hz. Mostrar a fase e o módulo do sinal.
+		3. Descrever os componentes de um sistema de criptografia.
+		
+		
